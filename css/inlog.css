@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.winkelWagen {
+    margin-right: 17px;
+
+}
+
+.winkelWagen img {
+    height: 26px;
+
+}
+
+.login {
+    margin-right: 5px;
+}
+
+.login img {
+    height: 26px;
+}
+
+
+
+.winkelMandNone {
+    display: none;
+}
+
+footer {
+    margin-top: 125px;
+}
+
+.warningsMessage {
+    padding-left: 24px;
+    color: red;
+    text-decoration: underline;
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    .winkelWagen {
+        display: none;
+    }
+
+    .login {
+        display: none;
+    }
+
+    .winkelMandNone {
+        display: block;
+    }
+
+    .dashboard {
+        display: none;
+    }
+}
+

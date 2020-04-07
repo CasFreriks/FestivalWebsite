@@ -1,0 +1,146 @@
+.container {
+    width:100%;
+}
+
+.card {
+    width: 100%;
+    height: auto;
+    margin: 10px auto 0 auto;
+
+}
+
+.card-content {
+    width: auto;
+    height: 100px;
+}
+
+.cardImg {
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    float:left;
+}
+
+.cardH5 {
+    float:right;
+    padding-top: 42px;
+    padding-right: 42px;
+}
+
+.profileNav {
+    height:50px;
+    width:80%;
+    background-color: #f7f7f7;
+    padding:0;
+    margin: 28px auto 0 auto;
+    border-radius: 5px;
+}
+
+.profileNav ul {
+    padding-top: 12px;
+}
+
+.profileNav li {
+    display: inline;
+    padding:7px;
+}
+
+.profileNav a {
+    color:black;
+}
+
+.profileContent {
+    height:auto;
+    width:80%;
+    background-color: #f7f7f7;
+    padding:0;
+    margin: 10px auto 0 auto;
+    border-radius: 5px;
+}
+
+.form-control {
+    width: 40%;
+}
+
+.custom-control {
+    display: initial;
+}
+
+.bestellingenParagraph {
+    text-align:center;
+}
+
+.winkelWagen {
+    margin-right: 17px;
+
+}
+
+.winkelWagen img {
+    height: 26px;
+
+}
+
+.dashboard {
+    margin-right: 17px;
+
+}
+
+.dashboard img {
+    height: 26px;
+}
+
+.dashboardNone {
+    display: none;
+}
+
+.login {
+    margin-right:5px;
+}
+
+.login img {
+    height: 26px;
+}
+
+.winkelMandNone {
+    display: none;
+}
+
+footer {
+    margin-top: 125px;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .winkelWagen {
+        display:none;
+    }
+
+    .login {
+        display:none;
+    }
+
+    .winkelMandNone {
+        display: block;
+    }
+
+    .dashboard {
+        display: none;
+    }
+
+    .dashboardNone {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .profileNav {
+        height: 67%;
+    }
+
+    .line {
+        display: none !important;
+    }
+
+
+
+}

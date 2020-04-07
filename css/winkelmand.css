@@ -1,0 +1,138 @@
+.container-fluid {
+    margin-top: 20px;
+
+}
+
+.card {
+    width: 100%;
+    height: auto;
+    margin: 10px auto 0 auto;
+
+}
+
+.info {
+    width: 80%;
+}
+
+.bestellingenParagraph {
+    text-align: center;
+}
+
+.card-body table {
+    width: 90%;
+    margin: 51px auto 0 auto;
+}
+
+.winkelWagen {
+    margin-right: 17px;
+
+}
+
+.winkelWagen img {
+    height: 26px;
+
+}
+
+.login {
+    margin-right: 5px;
+}
+
+.login img {
+    height: 26px;
+}
+
+.dashboard {
+    margin-right: 17px;
+
+}
+
+.dashboard img {
+    height: 26px;
+}
+
+.dashboardNone {
+    display: none;
+}
+
+.winkelMandNone {
+    display: none;
+}
+
+footer {
+    margin-top: 125px;
+}
+
+.card-content {
+    width: auto;
+    height: 100px;
+}
+
+.cardImg {
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.cardImgDelete {
+    height:20px;
+    margin-top:45px;
+    margin-right: 20px;
+    float:right;
+    cursor:pointer;
+}
+
+.cardH5 {
+    float:right;
+    padding-top: 42px;
+    padding-right: 42px;
+}
+
+input[type=submit] {
+    margin-left: 5.2%;
+    border: none;
+    margin-top: 10px;
+    background-color: #2f2f2f;
+    color: white;
+    width: 71px;
+    padding: 4px;
+    border-radius: 2px;
+}
+
+input[type=submit]:hover {
+    margin-left: 5.2%;
+    border: none;
+    margin-top: 10px;
+    background-color: #404040;
+    color: white;
+    width: 71px;
+    padding: 4px;
+    border-radius: 2px;
+}
+
+@media only screen and (max-width: 991px) {
+    .winkelWagen {
+        display: none;
+    }
+
+    .login {
+        display: none;
+    }
+
+    .winkelMandNone {
+        display: block;
+    }
+
+    .dashboard {
+        display: none;
+    }
+
+    .dashboardNone {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .info {
+        margin: 20px auto 0 auto;
+    }
+}

@@ -1,0 +1,116 @@
+#ticket {
+    margin: 20px auto 0 auto;
+    display: block;
+    height: 481px;
+    max-height:600px;
+    width: 100%;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+#ticket:hover {
+    background-color: #eaeaea;
+}
+
+.winkelWagen {
+    margin-right: 17px;
+
+}
+
+.winkelWagen img {
+    height: 26px;
+
+}
+
+.dashboard {
+    margin-right: 17px;
+}
+
+.dashboard img {
+    height: 26px;
+}
+
+.dashboardNone {
+    display: none;
+}
+
+.login {
+    margin-right: 5px;
+}
+
+.login img {
+    height: 26px;
+}
+
+.winkelMandNone {
+    display: none;
+}
+
+#ticket h4 {
+    text-align: center;
+    padding-top: 36px;
+}
+
+#ticket p {
+    text-align: center;
+}
+
+.ticketImg {
+    height: 128px;
+    width: 128px;
+    background-color: white;
+    border-radius: 190px;
+    margin: auto;
+    position: relative;
+    top: 18px;
+}
+
+.ticketImg img {
+    height: 71px;
+    display: block;
+    position: relative;
+    top: 24px;
+    margin: auto
+}
+
+.form-control {
+    width: 72px;
+    margin-top: 31px;
+}
+
+.button-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-success {
+    position: absolute;
+    bottom: 14px;
+}
+
+footer {
+    margin-top: 125px;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .winkelWagen {
+        display: none;
+    }
+
+    .login {
+        display: none;
+    }
+
+    .winkelMandNone {
+        display: block;
+    }
+
+    .dashboard {
+        display: none;
+    }
+
+    .dashboardNone {
+        display: block;
+    }
+}
